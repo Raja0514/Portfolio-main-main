@@ -47,7 +47,7 @@ const TimelineItem = (items: any) => {
         <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex justify-center m-2 gap-1">
           
           <div className="flex gap-1 flex-wrap  ">
-            <button className="border   flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
+            <button className="border shadow-[0_0_10px_0_#64FFDA50]  flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
               <a
                 className="font-semibold text-white"
                 href={item.skills}
