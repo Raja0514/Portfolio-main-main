@@ -6,7 +6,8 @@ import { useDisclosure } from "@mantine/hooks";
 import { IconDownload } from "@tabler/icons-react";
 import Particles from "./magicui/Particles";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
-import png from "../images/profile.jpg";
+
+
 
 const About = () => {
   const [opened, { open, close }] = useDisclosure(false);
@@ -79,7 +80,7 @@ const About = () => {
           <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
             <img
               className="w-full  h-full rounded-full "
-             src={png}
+             src={`${process.env.PUBLIC_URL}/${Info.Profile}.png`}
               alt="profile"
             />
           </NeonGradientCard>

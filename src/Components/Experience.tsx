@@ -23,11 +23,14 @@ const TimelineItem = (items: any) => {
     >
       <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
         <div className="flex gap-2 items-center">
+          <a href={item.link} target="_blank">
           <img
             className="rounded-lg w-16 md-mx:w-14"
             src={`${process.env.PUBLIC_URL}/${item.company}.png`}
             alt="Company"
           />
+          </a>
+          
           <div className="flex flex-col">
             <div className="text-white text-2xl font-semibold sm-mx:text-xl xs-mx:text-lg xsm-mx:text-base">
               {item.role}
@@ -41,14 +44,14 @@ const TimelineItem = (items: any) => {
           {item.desc}
         </div>
 
-        <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex gap-1">
+        {/* <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex gap-1">
           <div className="font-semibold text-white">Skills:</div>
           <div className="flex gap-1 flex-wrap">
             {item.skills.map((skill: any, index: number) => (
               <div key={index}> &#x2022; {skill} </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </Timeline.Item>
   ));
