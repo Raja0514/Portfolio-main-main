@@ -24,13 +24,13 @@ const TimelineItem = (items: any) => {
       <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
         <div className="flex gap-2 items-center">
           <a href={item.link} target="_blank">
-          <img
-            className="rounded-lg w-16 md-mx:w-14"
-            src={`${process.env.PUBLIC_URL}/${item.company}.png`}
-            alt="Company"
-          />
+            <img
+              className="rounded-lg w-16 md-mx:w-14"
+              src={`${process.env.PUBLIC_URL}/${item.company}.png`}
+              alt="Company"
+            />
           </a>
-          
+
           <div className="flex flex-col">
             <div className="text-white text-2xl font-semibold sm-mx:text-xl xs-mx:text-lg xsm-mx:text-base">
               {item.role}
@@ -44,14 +44,21 @@ const TimelineItem = (items: any) => {
           {item.desc}
         </div>
 
-        {/* <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex gap-1">
-          <div className="font-semibold text-white">Skills:</div>
-          <div className="flex gap-1 flex-wrap">
-            {item.skills.map((skill: any, index: number) => (
-              <div key={index}> &#x2022; {skill} </div>
-            ))}
+        <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex justify-center m-2 gap-1">
+          
+          <div className="flex gap-1 flex-wrap  ">
+            <button className="border   flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
+              <a
+                className="font-semibold text-white"
+                href={item.skills}
+                target="_blank"
+                style={{ cursor: "pointer" }}
+              >
+                Certification Link
+              </a>
+            </button>
           </div>
-        </div> */}
+        </div>
       </div>
     </Timeline.Item>
   ));
@@ -69,10 +76,10 @@ const Experience = () => {
   return (
     <div
       className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono"
-      id="Experience"
+      id="Certifications"
     >
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white">
-        <span className="text-primaryColor"></span>Experience
+        <span className="text-primaryColor"></span>Certifications
       </h1>
       <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
         {TimelineItem(ExperienceInfo)}

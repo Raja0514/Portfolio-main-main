@@ -144,36 +144,20 @@ const socialLinks = [
 
 const ExperienceInfo = [
   {
-    role: "Youtuber",
-    link:"http://www.youtube.com/@mucatcode3468",
-    company: "mucatcode",
-    date: "Oct 2021 - Present",
-    desc: "This is not a Big Achievement but I Consistently Upload Videos Related to FrontEnd Skills Like a HTML5,CSS3,JavaScript,React and React Native,After I Completed my Full Stack Developer course , I started Teaching and sharing my skills to my subscribers. My Particular videos Received valuable comments,I Have Less Number of Subscribers,Hopefully it will Increase in the Future .The Reason to Mention Here About My YouTube Channel, I Constantly Update my Skills while Teaching to Someone.",
-    skills: [
-      "Springboot",
-      "React JS",
-      "Angular",
-      "Node JS",
-      "MySQL",
-      "MongoDB",
-      "Microservices",
-    ],
+    role: "Zen Class FullStack Developer Program",
+    link:"https://www.guvi.in/",
+    company: "Guvi",
+    date: "July 2021 - November 2022",
+    desc: " Throughout this course, I've take a first look at the core technologies of HTML, CSS, and Javascript and explore the concepts that underpin how the internet works, I have gained invaluable knowledge and skills in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I've learned how to create dynamic user interfaces, integrate APIs, manage databases and deploy the site.",
+    skills: "https://www.guvi.in/certificate?id=17750u096Ph31969L8&download=true",
   },
   {
-    role: "Staff Supervisor",
+    role: "React Live Course",
     link:"https://www.alajmimarble.com/",
-    company: "AL AJMI MARBLE L.L.C-OMAN",
-    date: "Feb 2011 - Present",
-    desc: "Receiving Work Orders and Auto CAD Drawings from Sales Team and Assigning Work to the Technical Team,Preparing Delivery Note and Invoices in Tally Prime,Coordinate with Sales Team and Customers Everyday by Telephone Conversations,Train new Employees on how to Safely use Machinery and follow procedures.",
-    skills: [
-      "Java",
-      "MySQL",
-      "Hibernate",
-      "Selenium",
-      "Jenkins",
-      "JIRA",
-      "Automation Testing",
-    ],
+    company: "NamasteDEV.com",
+    date: "Dec 2022 - Feb 2023",
+    desc: "From this course I've learned ReactJS deeply.And get familiar with Function Based Component,Class Based Component and React Hooks,Virtual DOM,Redux Toolkit and many more deeply.And explore how Bundlers like a Parcel,Vite and Create React App   works in browser.Also i learn from this course how to handle the Live API like a Swiggy API and YouTube API using this API's i have Done Projects.",
+    skills: "https://drive.google.com/file/d/13o9IpQaitrFlc5IXSTv4WPubRoSs5Lnx/view",
   },
 ];
 const Slugs = [
