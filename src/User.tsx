@@ -152,8 +152,8 @@ const ExperienceInfo = [
     skills: "https://www.guvi.in/certificate?id=17750u096Ph31969L8&download=true",
   },
   {
-    role: "React Live Course",
-    link:"https://www.alajmimarble.com/",
+    role: "Namaste React Live Course",
+    link:"https://namastedev.com/",
     company: "NamasteDEV.com",
     date: "Dec 2022 - Feb 2023",
     desc: "From this course I've learned ReactJS deeply.And get familiar with Function Based Component,Class Based Component and React Hooks,Virtual DOM,Redux Toolkit and many more deeply.And explore how Bundlers like a Parcel,Vite and Create React App   works in browser.Also i learn from this course how to handle the Live API like a Swiggy API and YouTube API using this API's i have Done Projects.",
