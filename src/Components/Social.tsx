@@ -1,5 +1,6 @@
 import { socialLinks } from "../User";
 
+
 const Social = () => {
   const socialIcons = socialLinks.map((socialLink, index) => {
     return (
@@ -12,16 +13,24 @@ const Social = () => {
         <div data-aos="fade-up-left" data-aos-duration="800">
           {" "}
           <socialLink.icon stroke={1.5} className="-rotate-90" size={25} />
+        
         </div>
+      
       </a>
     );
   });
 
   return (
-    <div className="flex md-mx:hidden text-textColor items-center gap-8 fixed bottom-32 -left-48 rotate-90 ">
+    <>
+    <div className="flex md-mx:hidden text-textColor items-center gap-8 fixed bottom-32 -left-44 rotate-90 ">
       {socialIcons}
+    
       <hr className="border w-40 rounded-full  bg-textColor border-textColor" />
     </div>
-  );
+     <div>
+     
+     </div>
+    </>
+      );
 };
 export default Social;

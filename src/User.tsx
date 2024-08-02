@@ -1,14 +1,14 @@
 import {
   IconBrandGithub,
-  IconBrandInstagram,
-  IconBrandLeetcode,
   IconBrandLinkedin,
   IconBrandYoutube,
+  IconBrandWhatsapp,
+  IconMail 
 } from "@tabler/icons-react";
 
 const Info = {
   name: "Raja Mathiyalagan",
-  stack: ["Front-End Developer", "MERN Stack Developer", "Freelancer"],
+  stack: ["Frontend Developer", "MERN Stack Developer"],
   bio: "I am dedicated to crafting beautiful, functional, and intuitive user interfaces that engage and delight users.My approach to development is collaborative and user-centered, ensuring that the end result meets your needs and satisfies your users. I am constantly expanding my knowledge and skills to stay up-to-date with the latest trends and best practices in the industry.By the way I love to build the frontend with ReactJs. And the combination of react and tailwind CSS is always satisfying for me!!.",
   Profile: "Hero",
 };
@@ -129,35 +129,38 @@ const SkillInfo = [
   },
 ];
 const socialLinks = [
-  { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
+  { link: "https://github.com/Raja0514", icon: IconBrandGithub },
   {
-    link: "https://www.linkedin.com/in/chandrabhan-maurya",
+    link: "https://www.linkedin.com/in/raja-mathiyalagan-56b741227/",
     icon: IconBrandLinkedin,
   },
-  { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram },
+  { link: "", icon: IconBrandWhatsapp },
+
+  { link: "mailto:rajamr1987@gmail.com", icon: IconMail },
   {
-    link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw",
+    link: "http://www.youtube.com/@mucatcode3468",
     icon: IconBrandYoutube,
   },
-  { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode },
 ];
 
 const ExperienceInfo = [
   {
     role: "Zen Class FullStack Developer Program",
-    link:"https://www.guvi.in/",
+    link: "https://www.guvi.in/",
     company: "Guvi",
     date: "July 2021 - November 2022",
     desc: " Throughout this course, I've take a first look at the core technologies of HTML, CSS, and Javascript and explore the concepts that underpin how the internet works, I have gained invaluable knowledge and skills in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I've learned how to create dynamic user interfaces, integrate APIs, manage databases and deploy the site.",
-    skills: "https://www.guvi.in/certificate?id=17750u096Ph31969L8&download=true",
+    skills:
+      "https://www.guvi.in/certificate?id=17750u096Ph31969L8&download=true",
   },
   {
     role: "Namaste React Live Course",
-    link:"https://namastedev.com/",
+    link: "https://namastedev.com/",
     company: "NamasteDEV.com",
     date: "Dec 2022 - Feb 2023",
     desc: "From this course I've learned ReactJS deeply.And get familiar with Function Based Component,Class Based Component and React Hooks,Virtual DOM,Redux Toolkit and many more deeply.And explore how Bundlers like a Parcel,Vite and Create React App   works in browser.Also i learn from this course how to handle the Live API like a Swiggy API and YouTube API using this API's i have Done Projects.",
-    skills: "https://drive.google.com/file/d/13o9IpQaitrFlc5IXSTv4WPubRoSs5Lnx/view",
+    skills:
+      "https://drive.google.com/file/d/13o9IpQaitrFlc5IXSTv4WPubRoSs5Lnx/view",
   },
 ];
 const Slugs = [

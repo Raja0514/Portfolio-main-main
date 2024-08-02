@@ -60,7 +60,7 @@ const About = () => {
               variant="filled"
               color="#64FFDA"
             >
-              Check Resume
+               Resume
             </Button>
             <Button
               component="a"

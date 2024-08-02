@@ -1,4 +1,4 @@
-import { Text, Timeline, useMatches } from "@mantine/core";
+import { Text, Timeline, useMatches, Button } from "@mantine/core";
 import {
   IconBriefcaseFilled,
   IconGitBranch,
@@ -12,6 +12,13 @@ const TimelineItem = (items: any) => {
   const size = useMatches({
     xs: 15,
     md: 20,
+  });
+
+  const btn = useMatches({
+    xs: "xs",
+    sm: "sm",
+    md: "md",
+    lg: "lg",
   });
   return items.map((item: any, index: number) => (
     <Timeline.Item
@@ -45,18 +52,21 @@ const TimelineItem = (items: any) => {
         </div>
 
         <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex justify-center m-2 gap-1">
-          
-          <div className="flex gap-1 flex-wrap  ">
-            <button className="border shadow-[0_0_10px_0_#64FFDA50]  flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
+          <div className="flex gap-1 flex-wrap  xs-mx:w-[90%]  xs-mx:justify-center ">
+            <Button
+              className="focus-visible:!outline-none !text-bgColor !w-fit xs-mx:!w-[46%]"
+              size={btn}
+              variant="filled"
+              color="#64FFDA"
+            >
               <a
-                className="font-semibold text-white"
                 href={item.skills}
                 target="_blank"
                 style={{ cursor: "pointer" }}
               >
-                Certification Link
+                 Certificate
               </a>
-            </button>
+            </Button>
           </div>
         </div>
       </div>
