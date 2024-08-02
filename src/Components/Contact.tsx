@@ -6,7 +6,7 @@ import { validateForm } from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../Firebase";
 import toast from "react-hot-toast";
-import Social from "./Social";
+
 
 const Contact = () => {
   const form = {
