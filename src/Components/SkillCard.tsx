@@ -12,6 +12,7 @@ const SkillBadge = (skills: []) => {
       <img
         className="w-[48px] bs-mx:w-[36px] xsm-mx:w-[28px] !p-1"
         src={`${process.env.PUBLIC_URL}/Icons/${skill}.png`}
+        alt="publicimages"
       />
 
       <div className="text-textColor text-xl font-medium sm-mx:text-lg xs-mx:text-sm ">

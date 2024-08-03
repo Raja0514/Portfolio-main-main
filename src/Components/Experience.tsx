@@ -1,11 +1,5 @@
-import { Text, Timeline, useMatches, Button } from "@mantine/core";
-import {
-  IconBriefcaseFilled,
-  IconGitBranch,
-  IconGitCommit,
-  IconGitPullRequest,
-  IconMessageDots,
-} from "@tabler/icons-react";
+import { Timeline, useMatches, Button } from "@mantine/core";
+import { IconBriefcaseFilled } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
 
 const TimelineItem = (items: any) => {
@@ -30,7 +24,7 @@ const TimelineItem = (items: any) => {
     >
       <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
         <div className="flex gap-2 items-center">
-          <a href={item.link} target="_blank">
+          <a href={item.link} target="_blank" rel="noreferrer">
             <img
               className="rounded-lg w-16 md-mx:w-14"
               src={`${process.env.PUBLIC_URL}/${item.company}.png`}
@@ -64,7 +58,7 @@ const TimelineItem = (items: any) => {
                 target="_blank"
                 style={{ cursor: "pointer" }}
               >
-                 Certificate
+                Certificate
               </a>
             </Button>
           </div>
@@ -86,10 +80,10 @@ const Experience = () => {
   return (
     <div
       className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono"
-      id="Certifications"
+      id="CERTIFICATE"
     >
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white">
-        <span className="text-primaryColor"></span>Certifications
+        <span className="text-primaryColor"></span>CERTIFICATE
       </h1>
       <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
         {TimelineItem(ExperienceInfo)}

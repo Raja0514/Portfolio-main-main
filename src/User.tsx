@@ -8,8 +8,8 @@ import {
 
 const Info = {
   name: "Raja Mathiyalagan",
-  stack: ["Frontend Developer", "MERN Stack Developer"],
-  bio: "I am dedicated to crafting beautiful, functional, and intuitive user interfaces that engage and delight users.My approach to development is collaborative and user-centered, ensuring that the end result meets your needs and satisfies your users. I am constantly expanding my knowledge and skills to stay up-to-date with the latest trends and best practices in the industry.By the way I love to build the frontend with ReactJs. And the combination of react and tailwind CSS is always satisfying for me!!.",
+  stack: ["FrontEnd Developer"],
+  bio: "As a frontend developer,I am dedicated to crafting beautiful, functional, and intuitive user interfaces that engage and delight users.My approach to development is collaborative and user-centered, ensuring that the end result meets your needs and satisfies your users. I am constantly expanding my knowledge and skills to stay up-to-date with the latest trends and best practices in the industry.By the way I love to build the frontend with ReactJs. And the combination of react and tailwind CSS is always satisfying for me!!.",
   Profile: "Hero",
 };
 
