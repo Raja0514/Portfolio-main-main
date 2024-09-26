@@ -8,6 +8,8 @@ import { db } from "../Firebase";
 import toast from "react-hot-toast";
 
 
+
+
 const Contact = () => {
   const form = {
     name: "",
